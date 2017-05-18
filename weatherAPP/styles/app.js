@@ -2,7 +2,7 @@
 
 let getInfo = function() {
   let zipCode = document.getElementById('place').value;
-  let link = `http://api.openweathermap.org/data/2.5/weather?q=${zipCode},us&appid=695279dc68a830ecb71f824afea9c903`;
+  let link = `http://api.openweathermap.org/data/2.5/weather?q=${zipCode},us&appid=`;
   let weather = new XMLHttpRequest();
   weather.open('GET', link, true);
 
@@ -22,8 +22,6 @@ let getInfo = function() {
     document.querySelector('.max-temp').innerHTML = 'max ' + celsiusMax;
     document.querySelector('.min-temp').innerHTML = 'min ' + celsiusMin;
     document.querySelector('.humidade').innerHTML = 'humidity ' + appz.main.humidity + '%';
-
-
 
   }
   weather.send();
