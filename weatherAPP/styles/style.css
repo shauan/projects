@@ -1,0 +1,20 @@
+body{
+  background-color: #0F5474 !important;
+}
+#city-name{
+  color: #fff !important;
+}
+.small-temp{
+  font-size: 11px;
+  color: #fff !important;
+}
+.small-country{
+  font-size: 22px;
+  color: #fff !important;
+  margin-left: 10px;
+  text-transform: uppercase;
+
+}
+.imagem{
+  float: left;
+}
