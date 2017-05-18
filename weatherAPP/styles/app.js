@@ -2,7 +2,7 @@
 
 let getInfo = function() {
   let zipCode = document.getElementById('place').value;
-  let link = `http://api.openweathermap.org/data/2.5/weather?q=${zipCode},us&appid=YOUR_API_KEY_HERE`;
+  let link = `http://api.openweathermap.org/data/2.5/weather?q=${zipCode},us&appid=695279dc68a830ecb71f824afea9c903`;
   let weather = new XMLHttpRequest();
   weather.open('GET', link, true);
 
