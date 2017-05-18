@@ -13,20 +13,33 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-12 text-center">
+    <div class="col-md-12">
       <input type="text" placeholder="Zip or City name" id="place">
       <input type="submit" onclick="getInfo()">
     </div>
     <div class="col-md-12">
       <h1 id="city-name"></h1>
       <div class="horario"></div>
+    </div>
+    <div class="col-md-3">
+
+      <div class="row">
+        <div class="col-md-12">
+          <span class="imagem"></span> <h2 id="temperature"></h2>
+        </div>
+        <div class=" col-md-offset-2 col-md-2 text-center">
+          <div class="max-temp"></div>
+        </div>
+        <div class="col-md-2 text-center">
+          <div class="min-temp"></div>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="col-md-6">
       <div class="descr"></div>
-      <span class="imagem"></span> <h2 id="temperature"></h2>
-      <div class="max-temp"></div>
-      <div class="min-temp"></div>
       <div class="humidade"></div>
-
-
     </div>
   </div>
 </div>

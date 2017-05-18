@@ -16,8 +16,8 @@ let getInfo = function() {
 
     document.getElementById('city-name').innerHTML = appz.name + '<span class="small-country">' + appz.sys.country + '</span>';
     document.getElementById('temperature').innerHTML = mainCelsius + '&deg;' + '<span class="small-temp">' + 'C' + '</span>';
-    document.querySelector('.horario').innerHTML =  horario.toLocaleTimeString();
-    document.querySelector('.descr').innerHTML = appz.weather[0].description;
+    document.querySelector('.horario').innerHTML =  '<span class="borda">' + horario.toLocaleTimeString() + '</span>';
+    document.querySelector('.descr').innerHTML =  appz.weather[0].description ;
     document.querySelector('.imagem').innerHTML = '<img width="74" src="http://openweathermap.org/img/w/' + appz.weather[0].icon + '.png">';
     document.querySelector('.max-temp').innerHTML = 'max ' + celsiusMax;
     document.querySelector('.min-temp').innerHTML = 'min ' + celsiusMin;

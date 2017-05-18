@@ -5,7 +5,7 @@ body{
   color: #fff !important;
 }
 .small-temp{
-  font-size: 11px;
+  font-size: 18px;
   color: #fff !important;
 }
 .small-country{
@@ -17,4 +17,41 @@ body{
 }
 .imagem{
   float: left;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+.horario{
+  color: #fff;
+  margin: 20px 0;
+}
+.borda{
+  border: solid 1px #fff;
+  padding: 10px;
+}
+#temperature{
+  color: #fff;
+  font-size: 38px;
+}
+.max-temp{
+  color: #fff;
+  font-size: 16px;
+}
+.min-temp{
+  color: #fff;
+  font-size: 16px;
+}
+.humidade{
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.descr{
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.linha{
+  border-bottom: solid 1px #fff;
+  width: 50%;
 }
