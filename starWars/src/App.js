@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+cd ..import React, { Component } from 'react';
 import axios from 'axios';
 import './App.css';
 import List from './List';
@@ -9,7 +9,7 @@ class App extends Component {
 
     this.state = {
       people: [],
-    }
+    t}
     this.getPeople = this.getPeople.bind(this);
   }
 
