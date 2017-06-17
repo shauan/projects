@@ -9,7 +9,7 @@ class App extends Component {
 
     this.state = {
       people: [],
-    t}
+    }
     this.getPeople = this.getPeople.bind(this);
   }
 
