@@ -1,0 +1,49 @@
+body{
+    background-color: #000 !important;
+    font-family: 'Nunito', sans-serif !important;
+}
+.pesquisa{
+    margin: 20px 0;
+}
+#resultados{
+    color: #fff;
+    font-size: 1.1em;
+    margin: 20px 0;
+}
+.eachmovie{
+    margin: 10px;
+    border: solid 1px #1d1d1d;
+    padding: 20px;
+}
+.titulo{
+    color: #fff;
+    font-size: 2em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.lanca{
+    margin-bottom: 20px;
+    color: #E84F63;
+}
+.nota{
+    color: #E8CC72;
+    font-weight: 200;
+}
+.descricao{
+    color: #fff;
+    padding: 0 20px;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.no-image{
+    text-align: center;
+}
+.no-txt{
+    margin-left: 70px;
+}
+.no-ttt{
+    margin-left: 50px;
+}
